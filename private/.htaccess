@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Restricted Files"
-AuthUserFile /uac/gds/qliu/apache/passwords
-Require user qliu
