@@ -1,0 +1,3 @@
+#!/bin/bash
+tsocks rsync -avz --delete ~/www/ rn:www --exclude blog --exclude .git --exclude .gitignore --exclude sync
+rsync -avz --delete ~/www/ linux15:www --exclude blog --exclude .git --exclude .gitignore --exclude sync
