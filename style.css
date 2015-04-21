@@ -1,6 +1,8 @@
 @import "normalize.css";
 
-/* Google fonts: 
+/* taken from http://matt.might.net/css/main.css */
+
+/* Google fonts:
    http://fonts.googleapis.com/css?family=Marcellus+SC */
 @font-face {
   font-family: 'Marcellus SC';
@@ -12,45 +14,74 @@
 }
 
 body {
-    background-color: #ffd;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+    background-color: #f0f0f0;
+    /* background-image: url("img/noise.png"); */
+    text-shadow: 0 1px 0 #fff;
+    font-weight: 300;
+    word-wrap: break-word;
 
+    /* background-color: #dddddd; */
+    /* background-color: #ffe; */
+    /* padding: 20px; */
+    /* font-family: Georgia; */
+    /* color: #333333; */
+
+    max-width: 767px;
     margin: auto;
-    max-width: 55em;
-
-    line-height: 1.5em;
-    font-family: 'Verdana', sans-serif;
 }
 
-div.body {
+div.module {
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 9px;
+    -moz-border-radius: 9px;
+    -o-box-shadow: 0 5px 5px #333333;
+    -webkit-box-shadow: 0 5px 5px #333333;
+    -moz-box-shadow: 0 5px 5px #333333;
+    box-shadow: 0 5px 5px #333333;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Marcellus SC', serif;
 }
-h1.title {
-    /*text-align: center;*/
+
+li {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
-:link {
-    color: #68693F;
-    text-decoration: none;
-    border-bottom: 1px dotted #ccc;
-}
-:visited {
-    color: #68693F;
-    text-decoration: none;
-}
-a:link, a:visited {
-    background-color: #ffc;
+/* a { */
+/*     text-decoration: none; */
+/* } */
+
+/* a:hover { */
+/*     text-decoration: underline; */
+/* } */
+
+a {
+  color: #555;
 }
 
-hr {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+a:hover {
+  text-decoration: none;
 }
+
+/* :link { */
+/*     color: #68693F; */
+/*     text-decoration: none; */
+/*     border-bottom: 1px dotted #ccc; */
+/* } */
+/* :visited { */
+/*     color: #68693F; */
+/*     text-decoration: none; */
+/* } */
+/* a:link, a:visited { */
+/*     background-color: #ffc; */
+/* } */

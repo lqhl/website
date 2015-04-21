@@ -1,0 +1,56 @@
+@import "normalize.css";
+
+/* Google fonts:
+   http://fonts.googleapis.com/css?family=Marcellus+SC */
+@font-face {
+  font-family: 'Marcellus SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marcellus SC'), local('MarcellusSC-Regular'),
+  url(http://themes.googleusercontent.com/static/fonts/marcellussc/v1/_jugwxhkkynrvsfrxVx8gXhCUOGz7vYGh680lGh-uXM.woff)
+  format('woff');
+}
+
+body {
+    background-color: #ffd;
+
+    margin: auto;
+    max-width: 55em;
+
+    line-height: 1.5em;
+    font-family: 'Verdana', sans-serif;
+}
+
+div.module {
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Marcellus SC', serif;
+}
+h1.title {
+    /*text-align: center;*/
+}
+
+:link {
+    color: #68693F;
+    text-decoration: none;
+    border-bottom: 1px dotted #ccc;
+}
+:visited {
+    color: #68693F;
+    text-decoration: none;
+}
+a:link, a:visited {
+    background-color: #ffc;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
