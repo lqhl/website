@@ -22,12 +22,6 @@ body {
     font-weight: 300;
     word-wrap: break-word;
 
-    /* background-color: #dddddd; */
-    /* background-color: #ffe; */
-    /* padding: 20px; */
-    /* font-family: Georgia; */
-    /* color: #333333; */
-
     max-width: 767px;
     margin: auto;
 }
@@ -50,6 +44,11 @@ div.module {
 
 h1, h2, h3, h4 {
     font-family: 'Marcellus SC', serif;
+    font-weight: 200;
+}
+
+h1 {
+  font-size: 30px;
 }
 
 li {
@@ -57,31 +56,71 @@ li {
     margin-bottom: 0.3em;
 }
 
-/* a { */
-/*     text-decoration: none; */
-/* } */
-
-/* a:hover { */
-/*     text-decoration: underline; */
-/* } */
+hr {
+  margin: 18px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
 
 a {
-  color: #555;
+    text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
+a:visited {
+    color: blue;
 }
 
-/* :link { */
-/*     color: #68693F; */
-/*     text-decoration: none; */
-/*     border-bottom: 1px dotted #ccc; */
-/* } */
-/* :visited { */
-/*     color: #68693F; */
-/*     text-decoration: none; */
-/* } */
-/* a:link, a:visited { */
-/*     background-color: #ffc; */
-/* } */
+pre {
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  display: block;
+  line-height: 18px;
+  margin: 2em 0;
+  padding: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+code {
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  word-wrap: break-word;
+}
+
+a img {
+  border: 0 none;
+}
+
+p img {
+  margin-bottom: 0.5em;
+  /* a small bottom margin prevents content floating under images */
+}
+
+/*
+Resize images to fit the main content area.
+- Applies only to images uploaded via WordPress by targeting size-* classes.
+- Other images will be left alone. Use "size-auto" class to apply to other images.
+*/
+img {
+  max-width: 100%;
+  /* When images are too wide for containing element, force them to fit. */
+  height: auto;
+  /* Override height to match resized width for correct aspect ratio. */
+}
+
+ul.jump-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px ;
+    padding-right: 0px ;
+}
+
+
+ul.jump-bar li {
+    display: inline ;
+    font-weight: bold ;
+}
+
