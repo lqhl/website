@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -avz --delete ~/www/tmp/ linux15.cse.cuhk.edu.hk:www/tmp
