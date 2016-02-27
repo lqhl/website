@@ -1,7 +1,8 @@
 #!/bin/bash
-rsync -avz --delete ~/www/ gw.cse.cuhk.edu.hk:www --exclude blog \
-    --exclude .git --exclude .gitignore --exclude sync --exclude tmp \
-    --exclude update-tmp
 rsync -avz --delete ~/www/ galactica:www/lqhl.me --exclude blog \
     --exclude .git --exclude .gitignore --exclude sync --exclude tmp \
     --exclude update-tmp --exclude .well-known
+
+# rsync -avz --delete ~/www/ gw.cse.cuhk.edu.hk:www --exclude blog \
+#     --exclude .git --exclude .gitignore --exclude sync --exclude tmp \
+#     --exclude update-tmp

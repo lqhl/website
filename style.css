@@ -111,6 +111,11 @@ ul.jump-bar {
     padding-right: 0px ;
 }
 
+blockquote {
+    margin: 0 0 1.5rem;
+    border-left: 0.4rem solid #C4BCB3;
+    padding: 0 0 0 1.1rem;
+}
 
 ul.jump-bar li {
     display: inline ;
