@@ -4,11 +4,13 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <title>Qin Liu | NoahLab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="favicon.ico" rel="shortcut icon">
 </head>
 
 <body>
+<div class="wrapper">
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -20,7 +22,8 @@
   ga('send', 'pageview');
 </script>
 
-<a href="qliu-nyc.jpg"><img src="qliu-nyc.jpg" alt="Photo of Qin Liu" width=240 style="float:right;"></a>
+<a href="qliu-nyc.jpg"><img src="qliu-nyc.jpg" alt="Photo of Qin Liu"
+    width=25% style="float:right;"></a>
 <h1 class="title"><a href="http://lqhl.me" style="color: inherit;
 text-decoration: none">Qin Liu</a> (<span class="ch">刘勤</span>)</h1>
 <p>
@@ -275,6 +278,15 @@ Others:
 </ul>
 </div>
 
+<footer>
+<div style="float: left">
+    <small>
+    My heart and homepage are stolen with
+    <span style="font-size:150%;color:red;">&hearts;</span>
+    by <a href="https://millyz.github.io/" target="_blank">Mi Zhang</a>.
+    </small>
+</div>
+
 <script>
 // Reference: http://www.javascriptkit.com/script/cut27.shtml
 function getLongDateString()
@@ -316,8 +328,11 @@ function DocDate()
     return dateStr;
 }
 
-document.write("<p style=\"text-align:right\"><i>Last updated " + DocDate() + "</i></p>");
+document.write("<div style=\"float: right\"><i>Last updated " + DocDate() +
+        "</i></div>");
 </script>
+</footer>
 
+</div>
 </body>
 </html>
